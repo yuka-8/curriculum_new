@@ -1,0 +1,100 @@
+@media screen and (min-width: 476px) {
+    body {
+	width: 100%;
+}
+.header {
+	width: 400px;
+	height: 100px;
+	background: #141f40;
+}
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+    margin-right: 20px;
+}
+.box1 {
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    border-color: white;
+    border-style: solid;
+    border-width: 10px;
+    border-right: 5px;
+}
+.box2 {
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    border-color: white;
+    border-style: solid;
+    border-width: 10px;
+    border-right: 5px;
+}
+.box3 {
+    width: 40px;
+    height: 40px;
+    background-color:#a9004b;
+    border-color: white;
+    border-style: solid;
+    border-width: 10px;
+}
+.content {
+	float: none;
+	width: 150px;
+	height: 250px;
+	background: #80bfa8;
+}
+.side {
+    float: none;
+	width: 250px;
+	height: 250px;
+	background: #8c2727;
+}
+.box {
+    width: 140px;
+    height: 40px;
+    background-color: #ff863f;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 60px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+.box {
+    width: 140px;
+    height: 40px;
+    background-color: #ff863f;
+    margin-left: 40px;
+    margin-right: 60px;
+    margin-top: 10px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+.box {
+    width: 140px;
+    height: 40px;
+    background-color: #ff863f;
+    margin-left: 40px;
+    margin-right: 60px;
+    margin-top: 10px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+.footer {
+	width: 400px;
+	height: 100px;
+	background: #d98d30;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+}
