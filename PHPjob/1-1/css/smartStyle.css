@@ -8,13 +8,11 @@ height: 100px;
 background: #141f40;
 }
 .side {
-float: none;
 width: 150px;
 height: 250px;
 background: #80bfa8;
 }
 .content {
-float: none;
 width: 250px;
 height: 250px;
 }
