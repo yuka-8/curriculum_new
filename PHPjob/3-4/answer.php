@@ -33,3 +33,6 @@
    <p>③の答え</p>
    <?php comparisonAnswer($question3,$answer3); ?>
 
+   <td><?php{$getposts_sql['category_no']}?></td>
+        <td><?php{$getposts_sql['comment']}?></td>
+        <td><?php{$getposts_sql['created']}?></td>

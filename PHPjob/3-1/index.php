@@ -1,16 +1,12 @@
 <?php
-    for ($i=1; $i <= 100 ; $i++) {
-        if (($i % 3 === 0) && ($i % 5 === 0)) {
-            echo 'FizzBuzz<br/>';
-        } elseif ($i % 3 === 0) {
-            echo 'Fizz<br/>';
-        } elseif ($i % 5 === 0) {
-            echo 'Buzz<br/>';
-        } else {
-            echo $i.'<br/>';
-        }
-    }
-?>
+$fruits = ["りんご" => "100円","みかん" => "150円","もも" => "500円"];
 
+$quantity = [3,1,6];
 
+function fruitsQuantity($fruits,$quantity) {
+    return $fruits * $quantity;
+}
 
+foreach ($fruits as $key => $value) {
+    echo $key."の価格は".fruitsQuantity($value)."円です。<br>";
+}
