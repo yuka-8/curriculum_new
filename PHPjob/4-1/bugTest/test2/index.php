@@ -1,8 +1,5 @@
 <?php
-require 'lib/password.php';
-// セッション開始
-
-include_once("dbInfo.php");
+include_once("dbconnect.php");
 
 // エラーメッセージ、登録完了メッセージの初期化
 $errorMessage = "";
