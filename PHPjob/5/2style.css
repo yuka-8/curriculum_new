@@ -1,0 +1,83 @@
+body {
+    background-image: url(https://satsuei-navi.com/book_cafe/image/L0106_011_hama_house_02.jpg);
+    background-size: cover;
+    font-family: serif;
+    margin: auto;
+}
+
+.container {
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+    width: 450px;
+    height: 430px;
+    margin: auto;
+    margin-top: 60px;
+    padding: 20px;
+    background-color: white; 
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: serif;
+    color: #875C44;  
+}
+
+p {
+    font-size: 21px;
+    font-weight: bold;
+    color: #875C44;
+}
+
+input::placeholder{
+    color: #875C44;
+    font-family: serif;
+    font-size: 20px;
+    text-align: center;
+    text-align: center;
+    color: white;
+    background-color: tan;
+    font-weight: bold;
+}
+
+.t1::placeholder{
+    color: #875C44;
+    font-family: serif;
+    font-size: 20px;
+    text-align: center;
+    text-align: center;
+    color: white;
+    background-color: tan;
+    font-weight: bold;
+}
+
+.btn_01 {
+    font-size: 15px;
+    padding: 0.5rem 2rem;
+	border: none;
+	background: lightseagreen;
+	color: #fff;
+}
+
+
+.btn_02 {
+    padding: 0.5rem 2rem;
+	font-weight: bold;
+    font-family: serif;
+    font-size: 15px;
+    border: none;
+	background-color: #875C44;
+	color: #fff;
+    margin-top: 20px;
+}
+
+select {
+    color: #875C44;
+    font-family: serif;
+    font-size: 20px;
+    text-align: center;
+    text-align: center;
+    color: white;
+    background-color: tan;
+    font-weight: bold;
+}
